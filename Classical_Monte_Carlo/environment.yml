@@ -1,4 +1,4 @@
-name: van_hove
+name: Monte_Carlo
 channels:
   - conda-forge
   - defaults
