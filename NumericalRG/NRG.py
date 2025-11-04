@@ -1,3 +1,7 @@
+# This code is derived from tensor-network coursework I previously took
+# (Course: Tensor Networks, Instructor: Seung-Sup Lee, Term: <2022-Fall>).
+# I have re-implemented and modified MPS/MPO, NRG routines for this repository.
+
 import numpy as np
 from scipy.interpolate import interp1d
 from functions import *
