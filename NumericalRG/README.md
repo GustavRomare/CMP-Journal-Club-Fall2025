@@ -11,6 +11,10 @@ The **Single Impurity Anderson Model (SIAM)** is a foundational model in condens
 The **Numerical Renormalization Group (NRG)** is a powerful and exact numerical method, pioneered by Kenneth G. Wilson, specifically designed to handle the multi-scale physics inherent in quantum impurity problems. 
 It achieves this by iteratively diagonalizing the Hamiltonian on a logarithmic energy grid, which efficiently captures the low-energy fixed points and thermodynamic properties of the system.
 
+Notes and codes are based on these papers: 
+1. [Bulla, 2008](https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.80.395)
+2. [Krishna-murthy, Wilkins, and Wilson 1980](https://journals.aps.org/prb/pdf/10.1103/PhysRevB.21.1003)
+
 This repository provides:
 * A **Python implementation** of the NRG algorithm based on tensor network.
 * The necessary tools to construct the SIAM Hamiltonian.
